@@ -51,6 +51,10 @@ public class DeveloperTest {
     }
     
     // cmds for viewing test reports :
+
+    // mvn test jacoco:report
     // open target/site/jacoco/index.html
+
+    // mvn pitest:mutationCoveage
     // open target/pit-reports/index.html
 }
